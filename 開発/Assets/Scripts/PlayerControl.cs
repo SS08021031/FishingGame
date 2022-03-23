@@ -12,7 +12,8 @@ public class PlayerControl : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+
         if (Input.GetKey(KeyCode.Space))
         {
             transform.Rotate(new Vector3(0, 0, -3));
