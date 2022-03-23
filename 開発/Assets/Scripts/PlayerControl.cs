@@ -15,7 +15,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            transform.Rotate(new Vector3(0, 0, 3));
+            transform.Rotate(new Vector3(0, 0, -3));
         }
         
     }
