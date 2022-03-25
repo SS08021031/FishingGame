@@ -4,14 +4,15 @@ using UnityEngine;
 public class RandomFish : MonoBehaviour
 {
     public GameObject FishPrefabs;
+    //魚のｐｒｅｆａｂをいれる
 
-    public float X_min;
-    public float X_max;
+    public float X_min;　//Ｘ軸の最小値
+    public float X_max;　//Ｘ軸の最大値
 
-    public float Y_min;
-    public float Y_max;
+    public float Y_min;　//Ｙ軸の最小値
+    public float Y_max;　//Ｙ軸の最大値
 
-    public float count;
+    public float count;　//魚が出現した数
     void Start()
     {
         
@@ -23,11 +24,12 @@ public class RandomFish : MonoBehaviour
 
         if(count >= 5)
         {
-            float x = Random.Range(X_min, X_max);
-            float y = Random.Range(Y_min, Y_max);
-            Vector2 pos = new Vector2(x, y);
+            float x = Random.Range(X_min, X_max);　//Ｘ軸の最小値～最大値までの数値がランダムに出る
+            float y = Random.Range(Y_min, Y_max);　//Ｙ軸の最小値～最大値までの数値がランダムに出る
+            
+            Vector2 pos = new Vector2(x, y);　//出たＸ軸とＹ軸の数値を新しいVector2に代入
 
-            Instantiate(FishPrefabs, pos, Quaternion.identity);
+            Instantiate(FishPrefabs, pos, Quaternion.identity);　//新しいVector2の場所に生成する
         }
     }
 }

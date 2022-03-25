@@ -9,6 +9,7 @@ public class Fish : MonoBehaviour
     void Start()
     {
         Randommozi = Random.Range(1, 46);
+        //ランダムに1～46の変数が出る
     }
 
     void Update()
@@ -20,6 +21,7 @@ public class Fish : MonoBehaviour
             case 1:
                 FishMozi.text = "あ";
                 break;
+                //　1が出たら、テキストに「あ」を代入　
 
             case 2:
                 FishMozi.text = "い";
