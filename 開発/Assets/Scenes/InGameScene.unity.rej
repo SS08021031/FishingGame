@@ -1,0 +1,57 @@
+diff a/開発/Assets/Scenes/InGameScene.unity b/開発/Assets/Scenes/InGameScene.unity	(rejected hunks)
+@@ -167,55 +167,6 @@
+   m_Father: {fileID: 0}
+   m_RootOrder: 7
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+---- !u!1 &38512573
+-GameObject:
+-  m_ObjectHideFlags: 0
+-  m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInstance: {fileID: 0}
+-  m_PrefabAsset: {fileID: 0}
+-  serializedVersion: 6
+-  m_Component:
+-  - component: {fileID: 38512575}
+-  - component: {fileID: 38512574}
+-  m_Layer: 0
+-  m_Name: RandomFish
+-  m_TagString: Untagged
+-  m_Icon: {fileID: 0}
+-  m_NavMeshLayer: 0
+-  m_StaticEditorFlags: 0
+-  m_IsActive: 1
+---- !u!114 &38512574
+-MonoBehaviour:
+-  m_ObjectHideFlags: 0
+-  m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInstance: {fileID: 0}
+-  m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 38512573}
+-  m_Enabled: 1
+-  m_EditorHideFlags: 0
+-  m_Script: {fileID: 11500000, guid: 17ff59c3a72db8f488d34cc9a01470ae, type: 3}
+-  m_Name: 
+-  m_EditorClassIdentifier: 
+-  FishPrefabs: {fileID: 4492654028715804795, guid: 223ccb68b059bbb4ba8c854772869926, type: 3}
+-  X_min: -10
+-  X_max: 10
+-  Y_min: -5
+-  Y_max: 5
+-  count: 1
+---- !u!4 &38512575
+-Transform:
+-  m_ObjectHideFlags: 0
+-  m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInstance: {fileID: 0}
+-  m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 38512573}
+-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+-  m_LocalPosition: {x: 0, y: 0, z: 0}
+-  m_LocalScale: {x: 1, y: 1, z: 1}
+-  m_Children: []
+-  m_Father: {fileID: 0}
+-  m_RootOrder: 9
+-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+ --- !u!1 &130944605
+ GameObject:
+   m_ObjectHideFlags: 0
