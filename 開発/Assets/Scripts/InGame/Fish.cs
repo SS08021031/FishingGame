@@ -3,9 +3,7 @@ using UnityEngine.UI;
 
 public class Fish : MonoBehaviour
 {
-    [SerializeField] private GameObject fish;
     [SerializeField] private Text FishMozi;
-
 
     private float Randommozi;
     void Start()
