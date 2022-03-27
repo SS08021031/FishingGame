@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class Fish : MonoBehaviour
 {
-<<<<<<< HEAD
     [SerializeField] private GameObject fish;
     [SerializeField] private Text FishMozi;
 
@@ -205,7 +204,4 @@ public class Fish : MonoBehaviour
                 break;
         }
     }
-=======
-   public Text FishMozi;
->>>>>>> d7dfacdd21a6de9009df6400eae09dffc17d1324
 }

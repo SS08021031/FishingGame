@@ -3,34 +3,29 @@ using UnityEngine.UI;
 
 public class TextDate : MonoBehaviour
 {
-<<<<<<< HEAD
-    [SerializeField]
-    private Transform targetTfm;
+    [SerializeField] private Transform targetTfm;
 
     private RectTransform myRectTfm;
     private Vector3 offset = new Vector3(0, 1.5f, 0);
 
+    private float Randommozi;
+
+
+    [SerializeField] private GameObject fish;
+    [SerializeField] private Text FishMozi;
+
     void Start()
     {
         myRectTfm = GetComponent<RectTransform>();
-=======
-    [SerializeField] private GameObject Fish;
-    [SerializeField] private Text FishMozi;
 
-    
-    private float Randommozi;
-    void Start()
-    {
         Randommozi = Random.Range(1, 46);
->>>>>>> d7dfacdd21a6de9009df6400eae09dffc17d1324
+
     }
 
     void Update()
     {
-<<<<<<< HEAD
         myRectTfm.position
             = RectTransformUtility.WorldToScreenPoint(Camera.main, targetTfm.position + offset);
-=======
         switch (Randommozi)
         {
             case 1:
@@ -219,6 +214,5 @@ public class TextDate : MonoBehaviour
                 FishMozi.text = "Вс";
                 break;
         }
->>>>>>> d7dfacdd21a6de9009df6400eae09dffc17d1324
     }
 }
