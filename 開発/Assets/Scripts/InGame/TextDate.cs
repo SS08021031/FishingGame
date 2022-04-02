@@ -7,7 +7,7 @@ public class TextDate : MonoBehaviour
     private Transform targetTfm;
 
     private RectTransform myRectTfm;
-    private Vector3 offset = new Vector3(0, 0, 0);
+    private Vector3 offset = new Vector3(0.2f, 0, 0);
 
     void Start()
     {

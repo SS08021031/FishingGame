@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class RandomFish : MonoBehaviour
 {
     
@@ -12,7 +12,7 @@ public class RandomFish : MonoBehaviour
     public float Y_max;　//Ｙ軸の最大値
 
     public float instantiate;　//魚が生まれる時間
-   
+    
 
     void Start()
     {
@@ -29,5 +29,12 @@ public class RandomFish : MonoBehaviour
 
         //新しいVector2の場所に生成する
         Instantiate(Fish, pos, transform.rotation);
+
+        Invoke("Fishdeleate", 3);
+    }
+
+    void Fishdeleate()
+    {
+
     }
 }
