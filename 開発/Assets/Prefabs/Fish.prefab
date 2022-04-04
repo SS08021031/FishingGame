@@ -290,3 +290,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FishMozi: {fileID: 2445643477860812153}
+  DeleatTime: 10
